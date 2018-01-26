@@ -18,6 +18,15 @@ ul{
 	padding: 0;
 }
 
+.button_1{
+	height: 28px;
+	background:#e8491d;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
 /*Header*/
 
 header{
@@ -83,4 +92,24 @@ header a:hover{
 	font-size: 20px;
 }
 
-#newsletter
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+	border-top: #e8491d 3px solid;
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 18px;
+}
+
+#newsletter input[type = "email"]{
+	padding: 5px;
+	height: 15px;
+	width: 250px;
+}
